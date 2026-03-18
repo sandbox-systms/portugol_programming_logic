@@ -1,0 +1,39 @@
+algoritmo "entrada de dados"
+// Função 
+// Autor 
+// Data 
+// Seção de declarações
+var 
+
+    cliente ; caractere 
+    quantidade : inteiro 
+    preco : real 
+    produto : caractere 
+    totalPagar : real 
+
+inicio 
+// seção de comandos 
+    escreval("Digite o nome do cliente; ")
+    leia(cliente)
+
+
+    escreval("Cliente :", cliente)
+
+    escreval("Digite a quantidade de produtos que o cliente comprou")
+    leia(quantidade)
+
+    escreval("Digite o preço do produto")
+    leia(preco)
+
+    escreval("Digite o nome do produto")
+    leia(produto)
+
+    totalPagar =  quantidade * preco 
+
+    escreval("Cliente : ", clinte)
+    escreval("quantidade : ", quantidade)
+    escreval("preço : ", preco)
+    escreval("Produto :", produto)
+    escreval("Total a pagar :", totalPagar)
+
+fimalgoritmo 
