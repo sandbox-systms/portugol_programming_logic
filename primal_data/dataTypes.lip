@@ -32,3 +32,7 @@ escreval
 escreval("A cliente ", cliente, " comprou ", quantidade, " ", produto, " e vai pagar o total de ". totalaPagar )
 
 fimalgoritmo
+
+// Como existem diversas formas de construir um algoritmo, como fluxogramas, pseudocodigo e etc
+// decidi por questões tecnicas e facilidade aprender e entender a forma de mais fácil aplicação, conversão para '''stacks''' 
+// corporativas, o Portugol. Isto é, claramente não excluindo a metodologia de fluxogramas. 
