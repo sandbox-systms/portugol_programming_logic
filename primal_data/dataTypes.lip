@@ -1,0 +1,34 @@
+algoritmo "Tipos de dados"
+// Função 
+// Autor 
+// Data 
+// Seção de declarações
+var 
+
+    quantidade : inteiro
+    preco : real
+    totalAPagar : real
+    produto : caractere
+    cliente : caractere
+    compraEfetuada : logico 
+
+inicio
+
+    quantidade = 2
+    preco = 89.90
+    totalAPagar = quantidade * preco 
+    produto = "Ana Paula"
+    cliente = "Bolsas"
+    compraEfetuada = verdadeiro
+
+escreval(quantidade)
+escreval(preco)
+escreval(totalAPagar)
+escreval(cliente)
+escreval(produto)
+escreval(compraEfetuada)
+escreval
+escreval
+escreval("A cliente ", cliente, " comprou ", quantidade, " ", produto, " e vai pagar o total de ". totalaPagar )
+
+fimalgoritmo
