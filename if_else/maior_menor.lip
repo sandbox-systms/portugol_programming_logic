@@ -1,0 +1,19 @@
+algoritmo  "maior & menor"
+
+var 
+
+inicio 
+
+    // se <expressão booleeana> entao
+        // <instruções a serem executadas caso a expressão seja verdadeiro>
+        // senao 
+        // <instruções a serem executadas caso a expressão seja falso>
+    // fimse
+
+    se (numero > 10 ) entao
+        escreval(numero, " é maior que 10.")
+    senao 
+    escreval(numero, " é menor que 10.") 
+    fimse 
+
+fimalgoritmo
