@@ -27,7 +27,5 @@ Os algoritmos presentes neste repositório cobrem:
 - Funções e modularização  
 - Problemas matemáticos e do mundo real  
 
----
-│
 └── desafios/
     ├── exercicios_logica.por
