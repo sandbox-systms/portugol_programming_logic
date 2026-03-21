@@ -9,11 +9,12 @@ inicio
     escreval("Digite uma cor: ")
     leia(cor)
 
-    se (cor = "azul") entao 
+    //se (cor = "azul") entao (Substituido)
+    se (cor = "azul") ou (cor = "amarelo") entao
             escreval("A cor inserida é azul!")
             senao 
-        se (cor = "amarelo") entao
-                escreval("A cor inserida é amarelo")
+               // escreval("A cor inserida é azul ou amarelo") (substituição)
+            escreval("A cor inserida é invalida!")
         fimse
     fimse
 
