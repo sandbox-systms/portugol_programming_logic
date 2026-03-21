@@ -1,0 +1,20 @@
+algoritmo "Color condition"
+
+var 
+
+
+inicio
+
+// Usaremos, neste caso, propriedades de condições com o operador lógico (Boolean) OR.
+    escreval("Digite uma cor: ")
+    leia(cor)
+
+    se (cor = "azul") entao 
+            escreval("A cor inserida é azul!")
+            senao 
+        se (cor = "amarelo") entao
+                escreval("A cor inserida é amarelo")
+        fimse
+    fimse
+
+fimalgoritmo 
