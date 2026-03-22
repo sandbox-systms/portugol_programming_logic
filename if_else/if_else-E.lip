@@ -1,4 +1,4 @@
-algoritmo "If Else com operador lógico E (||)"
+algoritmo "If Else com operador lógico E (&&)"
 
 // Neste modelo, usaremos a tabela verdade = Operação Booleana
 // Este algortimo confere se um numero é maior ou menor que 10 e confere a tabela verdade 
