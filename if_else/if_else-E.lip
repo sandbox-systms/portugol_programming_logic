@@ -1,0 +1,26 @@
+algoritmo "If Else com operador lógico E (||)"
+
+// Neste modelo, usaremos a tabela verdade = Operação Booleana
+// Este algortimo confere se um numero é maior ou menor que 10 e confere a tabela verdade 
+
+var 
+
+    numero : inteiro 
+
+inicio 
+
+    escreval("Digite um número: ")
+    leia(numero)
+
+        se (numero >= 2) e (numero <= 10) entao // Verificação de duas condições conjuntas. 
+
+    escreval("O", numero,  "está no intervalo de 2 a 10")
+    leia("")
+
+        senao
+
+    escreval("O número digitado está fora do intervalo de 2 a 10")
+    
+        fimse
+
+fimalgoritmo 
