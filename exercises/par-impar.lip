@@ -1,0 +1,23 @@
+algoritmo "Par & Impar Info"
+
+var 
+
+    numero = inteiro 
+
+inicio 
+
+    escreval("Digite um número inteiro: ")
+    leia(numero)
+
+    se (numero mod 2 = 0 ) entao 
+
+    // mod 2 -> pega o resto de uma divisão 
+    // se o resto = 0 é PAR
+    // se resto for = qualquer número diferente de 0 então é impar 
+        se (numero mod 2 = 0 ) entao 
+        escreval("O número ", numero, "é PAR!") 
+            senao 
+                escreval("O número ", numero, "é IMPAR!") 
+    fimse 
+
+fimalgoritmo 
