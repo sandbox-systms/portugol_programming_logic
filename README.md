@@ -26,6 +26,3 @@ Os algoritmos presentes neste repositório cobrem:
 - Estruturas de repetição (`para`, `enquanto`)  
 - Funções e modularização  
 - Problemas matemáticos e do mundo real  
-
-└── desafios/
-    ├── exercicios_logica.por
