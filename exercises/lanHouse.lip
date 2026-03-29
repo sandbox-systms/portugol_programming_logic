@@ -1,0 +1,16 @@
+algoritmo "Lan House"
+
+var 
+
+    minutos, totalAPagar : real 
+
+inicio
+
+    escreval("Digite a quantidade em minutos utilizados pelo cliente: ")
+    leia(minutos)
+
+    totalAPagar = minutos * ((1/60)*2)
+
+    escreval("Total a pagar:", totalAPagar, "reais")
+
+fimalgoritmo

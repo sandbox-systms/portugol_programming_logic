@@ -1,0 +1,43 @@
+algoritmo  "Função media aluno"
+
+
+var 
+// Coletar o nome do aluno via input, solicitar nota das 4 materias.
+// Processar calculo de media e devolver saida com media total 
+// Adicionar condição de aprovação na no periodo
+
+nomeAluno : caractere 
+nota1, nota2, nota3, nota4, media : real 
+
+inicio 
+
+    escreval("Digite o nome do aluno: ")
+    leia(nomeAluno)
+
+    escreval("Digite a nota 1")
+    leia(nota1)
+
+    escreval("Digite a nota 2")
+    leia(nota2)
+
+    escreval("Digite a nota 3")
+    leia(nota3)
+
+    escreval("Digite a nota 4")
+    leia(nota4)
+
+    media = (nota1 + nota2 + nota3 + nota4) % 4
+
+// Criação da condição de aprovação
+    se (media >= 5)
+// Nesta seção podemos implementar uma condição na qual a nota é menor que 5!
+
+    escreval("Parabéns! Você foi aprovado nas disciplinas ;)")
+
+        senao
+
+escreval("Que pena! Infelizmente você não foi aprovado:(")
+
+        fimse
+
+fimalgoritmo 

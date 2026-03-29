@@ -1,0 +1,29 @@
+algoritmo "Idade para votar e CNH"
+
+
+var 
+
+    anoNasimento, idade = inteiro
+
+inicio 
+
+    escreval("Digite o ano em que você  nasceu: ") 
+    leia(anoNascimento)
+
+    idade = 2020 - anoNascimento 
+
+    escreval("Você tem", idade, " anos")
+
+    se (idade >= 18) entao 
+        escreval("Você já pode votar")
+        escreval("Você já pode tirar sua carteira de motorista")
+        senao 
+            se (idade >= 16) entao
+            escreval("Você já pode votar")
+            escreval("Você NÂO pode tirar sua carteira de motorista")
+                senao 
+                escreval("Você não pode votar e nem pode tirar a carteira de motorista")
+    fimse
+    
+fimalgoritmo
+
